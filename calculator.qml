@@ -209,7 +209,7 @@ ApplicationWindow {
                            }
 
                            CalculatorKey {
-                               value: "In"
+                               value: "ln"
                            }
 
                            CalculatorKey {
