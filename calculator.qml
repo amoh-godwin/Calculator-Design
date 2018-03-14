@@ -131,11 +131,12 @@ ApplicationWindow {
 
                            CalculatorKey {
                                value: "^2"
-                               icon: "icons/division_white.png"
+                               icon: "icons/square_white.png"
                            }
 
                            CalculatorKey {
                                value: "^y"
+                               icon: "icons/exponent_y_white.png"
                            }
 
                            CalculatorKey {
@@ -152,30 +153,37 @@ ApplicationWindow {
 
                            CalculatorKey {
                                value: "^3"
+                               icon: "icons/cube_white.png"
                            }
 
                            CalculatorKey {
                                value: "y/x"
+                               icon: "icons/y_root_x_white.png"
                            }
 
                            CalculatorKey {
                                value: "1/sin"
+                               icon: "icons/sine_inverse_white.png"
                            }
 
                            CalculatorKey {
                                value: "1/cos"
+                               icon: "icons/cos_inverse_white.png"
                            }
 
                            CalculatorKey {
                                value: "1/tan"
+                               icon: "icons/tan_inverse_white.png"
                            }
 
                            CalculatorKey {
                                value: "../"
+                               icon: "icons/root_white.png"
                            }
 
                            CalculatorKey {
                                value: "10^x"
+                               icon: "icons/ten_x_white.png"
                            }
 
                            CalculatorKey {
@@ -192,10 +200,12 @@ ApplicationWindow {
 
                            CalculatorKey {
                                value: "1/x"
+                               icon: "icons/x_inverse_white.png"
                            }
 
                            CalculatorKey {
                                value: "e^x"
+                               icon: "icons/exponent_x_white.png"
                            }
 
                            CalculatorKey {
@@ -211,8 +221,7 @@ ApplicationWindow {
                            }
 
                            CalculatorKey {
-                               value: "*"
-                               icon: "icons/sigma_white.png"
+                               value: ""
                                onClick: {
                                    screen.text = 'love'
                                }
@@ -220,10 +229,12 @@ ApplicationWindow {
 
                            CalculatorKey {
                                value: "pi"
+                               icon: "icons/pi_white.png"
                            }
 
                            CalculatorKey {
                                value: "n!"
+                               icon: "icons/factorial_white.png"
                            }
 
                            CalculatorKey {
@@ -255,10 +266,12 @@ ApplicationWindow {
 
                            CalculatorKey {
                                value: "Del"
+                               icon: "icons/delete_white.png"
                            }
 
                            CalculatorKey {
                                value: "/"
+                               icon: "icons/division_white.png"
                            }
 
                            CalculatorKey {
@@ -275,6 +288,7 @@ ApplicationWindow {
 
                            CalculatorKey {
                                value: "x"
+                               icon: "icons/multiplication_white.png"
                            }
 
                            CalculatorKey {
@@ -291,6 +305,7 @@ ApplicationWindow {
 
                            CalculatorKey {
                                value: "-"
+                               icon: "icons/minus_white.png"
                            }
 
                            CalculatorKey {
@@ -323,6 +338,7 @@ ApplicationWindow {
 
                            CalculatorKey {
                                value: "="
+                               icon: "icons/equal_white.png"
                            }
 
                        }
